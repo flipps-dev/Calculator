@@ -1,0 +1,142 @@
+body{
+  background: url("http://i209.photobucket.com/albums/bb133/giggetto/andrew-illarionov-26591.jpg")no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+#calculator{
+  height:380px;
+  width:306px;
+  background:#FFFF00;
+  border: 4px solid #fff;
+  border-radius:10px;
+  margin-top:35px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Fredoka One', cursive;
+}
+
+#top_display {
+  background: #191919;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height:30px;
+  
+}
+
+#top_display p{
+  line-height: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.color_fade {
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#down_display{
+  background: #191919;
+  height:30px;
+}
+
+#display_box {
+  width: 100%;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #000;
+  color:#fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+#box p {
+  padding-top: 5px;
+}
+
+#progressive {
+  position: relative;
+  height: 10px;
+  margin-right: 14px;
+  color: #8b8b7b;
+  font-size: 12px;
+}
+
+#box {
+  margin-right: 10px;
+  font-size: 35px;
+}
+
+#btn_box{
+  font-weight: bold;
+  position: absolute;
+  display: inline-block;
+  width: 295px;
+  height: auto;
+  margin-left: 3px;
+}
+
+button {
+  border-radius: 5px;
+  border: none;
+  background-color: #E5E200;
+  margin:2px;
+  padding: 0;
+  height: 49px;
+  width: 49px;
+  color: #fff;
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+button:active {
+  background: #000;
+}
+
+
+
+#equalButton {
+  width: 109px;
+}
+
+#zeroButton {
+  width: 169px;
+}
+
+button,
+button:hover,
+button:active,
+button:visited {
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+#footer{
+  margin-top: 15px;
+  color: white;
+}
+
+#footer a{
+  font-weight: bold;
+  color: yellow;
+  text-decoration: none;
+}
+
+#footer a:hover,
+#footer a:active,
+#footer a:visited{
+  color: #66CCFF;
+}
+
+
+
+
+
